@@ -1,0 +1,226 @@
+body {
+    font-size: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header .logo img{
+    height: 70px;
+}
+
+header {
+    align-items: center;
+    background-color: #3F0689;
+    color: #d19ef2;
+    display: flex;
+    height: 110px;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+header .titlogo img{
+    padding-right: 70px;
+    height: 150px;
+    margin: 0;
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #d19ef2;
+    text-decoration: none;
+}
+
+.hero {
+    justify-content: center;
+    height: 350px;
+    display: flex;
+    background-image: url(img/gif1.gif);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h2 {
+    color: #30006D;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    color: #d19ef2;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn-hero {
+    color: #000077;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-hero:hover {
+    background-color: #d19ef2;
+    color: #000077;
+}
+
+.about {
+    padding: 35px 20px;
+    background-color: #F0C5FF;
+}
+
+.about2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.aboutfilho{
+    position: relative;
+}
+
+.aboutfilho img{
+    position: absolute;
+}
+
+.star1{
+    height: 80px;
+    top: -10px;
+    left: 570px;
+}
+
+.star2{
+    height: 80px;
+    top: 227px;
+    left: 5px;
+}
+
+.aboutfilho2{
+    text-align: center;
+}
+
+.aboutfilho2 img{
+    width: 325px;
+}
+
+.about h2 {
+    color: #000077;
+    font-size: 38px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 23px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.about li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.oto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.quadrado{
+    background-color: #d19ef2;
+    border-radius: 32px;
+    text-align: center;
+    margin-top: 15px;
+    margin-block-end: 15px;
+}
+
+
+.imgoto img{
+    height: 300px;
+    margin-left: 75px;
+    margin-top: 15px;
+    margin-block-end: 15px;
+}
+
+.imgoto2 img{
+    height: 300px;
+    margin-right: 75px;
+    margin-top: 15px;
+    margin-block-end: 15px;
+}
+
+.pricing {
+    padding: 50px 20px;
+    background-color: #F0C5FF;
+}
+
+.pricing h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pricing ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.pricing li {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+.pricing p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: right;
+}
+
+.btn-pricing {
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-pricing:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+footer {
+    background-color: #3F0689;
+    color: #d19ef2;
+    text-align: center;
+    padding: 20px;
+}
